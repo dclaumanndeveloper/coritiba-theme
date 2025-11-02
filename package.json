@@ -1,0 +1,44 @@
+{
+  "name": "coritiba-theme",
+  "displayName": "Coritiba Theme",
+  "description": "Tema inspirado nas cores do Coritiba Football Club - Verde e Branco",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Coritiba Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/coritiba-dark-color-theme.json"
+      },
+      {
+        "label": "Coritiba Light",
+        "uiTheme": "vs",
+        "path": "./themes/coritiba-light-color-theme.json"
+      }
+    ]
+  },
+  "publisher": "DiegoRamosClaumann",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dclaumanndeveloper/coritiba-theme"
+  },
+  "keywords": [
+    "theme",
+    "color-theme",
+    "dark",
+    "light",
+    "coritiba",
+    "green",
+    "football"
+  ],
+  "galleryBanner": {
+    "color": "#00593f",
+    "theme": "dark"
+  }
+}
