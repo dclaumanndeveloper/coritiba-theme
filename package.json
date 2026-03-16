@@ -40,5 +40,10 @@
   "galleryBanner": {
     "color": "#00593f",
     "theme": "dark"
+  },
+  "license": "MIT",
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
   }
 }
