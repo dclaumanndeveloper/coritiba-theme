@@ -1361,6 +1361,10 @@
       "settings": { "foreground": "#267F99" }
     },
     {
+      "scope": "variable.other.unspecific.column.sql",
+      "settings": { "foreground": "#001080" }
+    },
+    {
       "scope": "support.function.sql",
       "settings": { "foreground": "#795E26" }
     },
@@ -1387,6 +1391,10 @@
       "scope": "keyword.operation.graphql",
       "settings": { "foreground": "#AF00DB" }
     },
+    {
+      "scope": "string.unquoted.alias.graphql",
+      "settings": { "foreground": "#001080" }
+    },
 
     // ══════════════════════════════════════════════════════════════════════
     // Dockerfile
@@ -1398,6 +1406,68 @@
     {
       "scope": "entity.name.image.dockerfile",
       "settings": { "foreground": "#267F99" }
+    },
+    {
+      "scope": "variable.other.dockerfile",
+      "settings": { "foreground": "#001080" }
+    },
+
+    // ══════════════════════════════════════════════════════════════════════
+    // Dart
+    // ══════════════════════════════════════════════════════════════════════
+    {
+      "scope": [
+        "storage.type.primitive.dart",
+        "support.type.dart"
+      ],
+      "settings": { "foreground": "#267F99" }
+    },
+    {
+      "scope": "entity.name.type.class.dart",
+      "settings": { "foreground": "#267F99" }
+    },
+    {
+      "scope": "entity.name.function.dart",
+      "settings": { "foreground": "#795E26" }
+    },
+
+    // ══════════════════════════════════════════════════════════════════════
+    // Swift
+    // ══════════════════════════════════════════════════════════════════════
+    {
+      "scope": "support.type.swift",
+      "settings": { "foreground": "#267F99" }
+    },
+    {
+      "scope": "entity.name.type.swift",
+      "settings": { "foreground": "#267F99" }
+    },
+    {
+      "scope": "support.function.swift",
+      "settings": { "foreground": "#795E26" }
+    },
+
+    // ══════════════════════════════════════════════════════════════════════
+    // Vue / Angular / Svelte
+    // ══════════════════════════════════════════════════════════════════════
+    {
+      "scope": [
+        "entity.name.tag.html.vue",
+        "entity.name.tag.template.html"
+      ],
+      "settings": { "foreground": "#800000" }
+    },
+    {
+      "scope": "entity.other.attribute-name.html.vue",
+      "settings": { "foreground": "#E50000" }
+    },
+    {
+      "scope": "support.class.component.vue",
+      "settings": { "foreground": "#267F99" }
+    },
+    {
+      "scope": "entity.name.selector.angular",
+      "settings": { "foreground": "#795E26" }
     },
 
     // ══════════════════════════════════════════════════════════════════════
