@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.0.1] - 2026-06-13
+
+### Adicionado
+- GitHub Actions: workflow `validate.yml` para validar o pacote em PRs e pushes no `main`
+- GitHub Actions: workflow `release.yml` para publicar automaticamente no VS Code Marketplace ao criar uma tag `v*`
+- Seção CI/CD no README com instruções de release
+- `@vscode/vsce` como `devDependency` no `package.json`
+
+### Alterado
+- `.vscodeignore` agora exclui `.github/` do pacote distribuído
+- README: imagens de preview descomentadas (adicionar `images/dark-preview.png` e `images/light-preview.png`)
+
 ## [1.0.0] - 2026-06-13
 
 ### Adicionado

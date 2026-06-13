@@ -16,13 +16,11 @@ Tema de cores para o Visual Studio Code inspirado nas cores oficiais do **Coriti
 
 ### Tema Escuro
 
-<!-- ![Coritiba Theme Dark](images/dark-preview.png) -->
-> _Adicione `images/dark-preview.png` e descomente a linha acima para exibir o screenshot._
+![Coritiba Theme Dark](images/dark-preview.png)
 
 ### Tema Claro
 
-<!-- ![Coritiba Light](images/light-preview.png) -->
-> _Adicione `images/light-preview.png` e descomente a linha acima para exibir o screenshot._
+![Coritiba Light](images/light-preview.png)
 
 ---
 
@@ -155,6 +153,20 @@ function processData(value: any) { ... }
 // ✅ Prefira tipos explícitos:
 function processData(value: string | number) { ... }
 ```
+
+---
+
+## CI/CD
+
+| Workflow | Trigger | Ação |
+|---|---|---|
+| `validate.yml` | Push/PR em `main` | Valida o pacote `.vsix` |
+| `release.yml` | Tag `v*` (ex: `v1.1.0`) | Publica no Marketplace + cria release no GitHub |
+
+Para publicar uma nova versão:
+1. Atualize a versão em `package.json` e em `CHANGELOG.md`
+2. Commit e crie uma tag: `git tag v1.1.0 && git push origin v1.1.0`
+3. O workflow cuida do resto (requer secret `VSCE_PAT` configurado no repositório)
 
 ---
 
