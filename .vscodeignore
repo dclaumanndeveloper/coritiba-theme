@@ -1,3 +1,5 @@
 .vscode/**
 .gitignore
 .git/**
+*.svg
+node_modules/**
